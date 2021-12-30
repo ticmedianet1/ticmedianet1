@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
+<body style="background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('assets/img/bg.jpg');">
+    <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3">Atemesia et sante</span><span class="site-heading-lower"></span></h1>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark text-center py-lg-4" id="mainNav" style="color: rgb(233,238,244);">
+        <div class="container">
+            <div class="col">
+                <h1 style="font-size: 25px;"><br><strong>ATEMESIA ET SANTE</strong><br><br></h1>
+            </div>
+        </div>
+    </nav>
+    <section class="page-section clearfix">
+        <div class="container">
+            <div class="intro"><img class="img-fluid intro-img mb-3 mb-lg-0 rounded" src="assets/img/artemisiashutterstock1065736367.jpg">
+                <div class="text-center intro-text p-5 rounded bg-faded" style="font-size: 16px;">
+                    <h2 class="section-heading mb-4"><span class="section-heading-lower" style="font-size: 41px;">l'atemesia?</span></h2>
+                    <p class="mb-3" style="font-family: ABeeZee, sans-serif;"><br><strong>Originaire d’Asie, la plante Artemisia est utilisée dans la médecine traditionnelle chinoise depuis des siècles. Près de 400 espèces de la plante poussent maintenant à travers le monde, parmi lesquels l’<em>Artemisia annua&nbsp;</em>(armoise annuelle). C’est de cette espèce qu’est extraite l’artémisinine, principe actif contenu dans les principaux traitements antipaludiques utilisés pour traiter la maladie aujourd’hui.</strong><br><br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="text-center cta-inner rounded">
+                        <h2 class="section-heading mb-4" style="font-size: 15px;background: #f95858;color: rgb(253,253,254);padding: 11px;">LUTTE CONTRE&nbsp;<span class="section-heading-lower"></span></h2>
+                        <ul style="text-align: left;font-family: Raleway, sans-serif;">
+                            <li>Le paludisme</li>
+                            <li>Les infections</li>
+                            <li>Hémoroides</li>
+                            <li>Les faiblesse sexuelles</li>
+                            <li>Purification sanguine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="text-center cta-inner rounded">
+                        <h2 class="section-heading mb-4" style="font-size: 15px;background: #f95858;color: rgb(255,255,255);padding: 11px;">autres vertus</h2>
+                        <p style="font-family: 'Alegreya Sans', sans-serif;"><br>L’artemisia possède plusieurs&nbsp;<strong>vertus</strong>. Elle est généralement utilisée pour&nbsp;<strong>soulager les troubles digestifs</strong>&nbsp;tels que les coliques, les diarrhées chroniques, les douleurs viscérales, les flatulences… Elle stimule également la sécrétion du suc gastrique,&nbsp;<strong>favorisant ainsi l’appétit</strong>&nbsp;et a l’avantage d’<strong>éliminer les vers intestinaux.</strong>&nbsp;En friction, elle&nbsp;<strong>soulage les douleurs thoraciques</strong>&nbsp;et<strong>&nbsp;les contractions musculaires</strong>&nbsp;après des efforts physiques intenses. Cette plante médicinale peut également traiter les&nbsp;<strong>phlébites</strong>&nbsp;et les&nbsp;<strong>varices</strong>&nbsp;car elle&nbsp;<strong>stimule la circulation sanguine</strong>. Enfin, en diffusion par le biais d’huiles essentielles, l’armoise chasse efficacement les&nbsp;<a href="https://monjardinmamaison.maison-travaux.fr/mon-jardin-ma-maison/conseils-jardinage/nuisibles-jardin-facons-de-les-repousser-avec-epluchures-278757.html#item=1">insectes nuisibles du jardin</a>&nbsp;et de la maison !<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mx-auto intro-button" style="text-align: center;margin-bottom: 64px;"><a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="#" style="font-size: 27.8px;"><i class="fa fa-whatsapp"></i>&nbsp;229 66344554</a></div>
+    <footer class="text-center footer text-faded py-5" style="padding: 38px 0px;">
+        <div class="container">
+            <p class="m-0 small">Copyright&nbsp;©&nbsp;Atermesia et santé 2021</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/current-day.js"></script>
+</body>
+
+</html>
