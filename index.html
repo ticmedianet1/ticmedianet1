@@ -1,0 +1,54 @@
+<span id="page-top"></span>
+<span hidden id="contenheaderName">contact.header</span>
+<div class="d-flex flex-column" id="content-wrapper">
+    <div id="content">
+        <div class=""><br>
+            <div class="container"><h3 class="mb-4 text-white rounded"><?=$_SESSION['fullname']?><a href="?logout"><button class="btn btn-outline-primary" style="text-align: right;float:right; font-size: medium;"><i class="fa fa-power-off"></i>&nbsp;</button></a></h3></div><br>
+            <div class="card shadow bg-white text-white">
+                <div class="card-header py-3 bg-white text-white">
+                    <p class="m-0 font-weight-bold text-center">Administrez vos contacts </p>
+                </div>
+                <div class="card-body">
+                    <div id="content-header">
+                        <?php require 'contact.header.html';?>
+                    </div> 
+                    <br>                 
+                    <!--Lister par-->
+                    <div class="row">
+                        <div class="col">
+                            <select id="windowdataby" class="form-control">
+                                <option value="content_title">Liste par titre</option>
+                                <option value="date">Liste par date</option>                         
+                            </select>
+                        </div>
+                    </div> 
+                    <br>
+                    <div id="contwindow" class="table-responsive table mt-0 bg-white" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                        <table class="table my-0" id="dataTable">
+                            <tbody id="contact_content">
+							    <?php
+								    $liste = blogselectsAllLimit('users_post','0','7','content_title','asc',$bdd);
+								    $listes[] = $liste;
+                                    $a=0;
+								    foreach($liste as $li){
+                                        require './App/Vues/cont.list.html';
+								    }
+                                ?>
+                                <span hidden id = "window-data-table">users_post</span>	
+                                <span hidden id = "window-data-by">content_title</span>
+                                <span hidden id = "window-data-order">asc</span>				
+                            </tbody>
+                            <tfoot><tr><td></td><td id="pagin-encour"></td><td></td></tr></tfoot>	
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="sticky-footer">
+        <div class="container my-auto">
+            <div class="text-center my-auto copyright text-white"><span>Copyright © TIC-MEDIA NET 2021</span></div>
+        </div>
+    </footer>
+</div>
+<span class="hide-on-top"><a class="border rounded d-inline scroll-top" href="#page-top"><i class="fas fa-angle-up"></i></a></span>
